@@ -39,7 +39,7 @@ sentence = sentence.str.replace(r"\b\d+\b", " ")
 sentence = sentence.str.replace(r"\s+|\r|\n", " ")
 sentence = sentence.str.replace(r"^\s+|\s$", "")
 
-#dataset['article_topic'] = sentence
+#dataset['article_content'] = sentence
 
 #stemming
 factory = StemmerFactory()
